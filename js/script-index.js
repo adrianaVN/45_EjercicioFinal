@@ -2,7 +2,16 @@ $(document).ready( function(){
 
 	//La variable "recipesArray" esta declarada en el archivo "data/recipes.js"
 	renderHighlightedRecipes(recipesArray);
+	$(".icon-arrow-left-alt").hide();
 
+	function printNews(){
+		var noticias = $('#noticias');
+
+		noticias.append("Nuevas recetas");
+		console.log(noticias);
+	}
+
+	printNews();
 });
 
 
@@ -41,9 +50,6 @@ function renderActivities(activitiesArray) {
 function renderActivity(recipe) {
 	
 }
-$(document).ready(function(){
-	$(".icon-arrow-left-alt").hide();
 
-});
 
 
