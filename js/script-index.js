@@ -100,7 +100,7 @@ function renderRecipe(recipe) {
 	spanBis.addClass("icon-bookmark");
 
 	var img = $('<img/>');
-	img.attr('src', recipe.source.url);
+	img.attr('src',"img/recipes/320x350/" + recipe.name+ ".jpg" );
 
 
 	
