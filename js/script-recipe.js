@@ -14,5 +14,8 @@ $(document).ready(function(){
 		 $('.js-show-recipe').removeClass("active");
 
 	});
+	$('.icon-arrow-left-alt').click(function(){
+		window.location = 'index.html';
+	});
 
 });
